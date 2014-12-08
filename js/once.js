@@ -118,5 +118,5 @@ function drawOnce() {
   Game.context.fillStyle = '#babaca';
   Game.context.font="bold 44px Futura";
   Game.context.textAlign = 'center';
-  Game.context.fillText("SCREEN SAVER", 400, 545);
+  Game.context.fillText("SCREEN SAVER", 400-20, 545);
 }
