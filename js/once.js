@@ -15,8 +15,8 @@ function drawOnce() {
   Game.context.lineWidth = 10;
   Game.context.beginPath();
   Game.context.rect(655, 115, 110, 350);
-  Game.context.fillStyle = '#babaca';
-  Game.context.strokeStyle = '#babaca';
+  Game.context.fillStyle = '#cabeca';
+  Game.context.strokeStyle = '#cabeca';
   Game.context.fill();
   Game.context.stroke();
 
@@ -38,7 +38,7 @@ function drawOnce() {
   Game.context.font="24px Futura";
   Game.context.fillText("START", 685, 140);
 
-  // Start
+  // ♫
   Game.context.beginPath();
   Game.context.fillStyle = '#cc0000';
   Game.context.arc(668, 171, 11, 0 , Math.PI*2);
@@ -115,7 +115,7 @@ function drawOnce() {
   // Game.context.font="61px Futura";
   // Game.context.fillText("☃", 677, 450);
   // Logo
-  Game.context.fillStyle = '#aaaaaa';
+  Game.context.fillStyle = '#babaca';
   Game.context.font="bold 44px Futura";
   Game.context.textAlign = 'center';
   Game.context.fillText("SCREEN SAVER", 400, 545);
