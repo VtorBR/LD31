@@ -110,7 +110,7 @@ Game.update = function() {
   }
 
   if (Game.state != 'music') {
-    if (Game.frameCount++ > Game.speed && SoundManager.step % 4 == 0) {
+    if (Game.frameCount++ > Game.speed && SoundManager.step % 2 == 0) {
       Game.speed-=2;
       if (Game.speed < 128) {
         Game.sound.song = 2;
